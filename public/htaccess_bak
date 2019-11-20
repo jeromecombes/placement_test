@@ -1,0 +1,9 @@
+AuthName ByPassword
+AuthUserFile /usr/local/www/private/htpasswords/htpasswdplacement
+AuthGroupFile /dev/null
+AuthType Basic
+
+<limit GET POST>
+require valid-user
+</Limit>
+
