@@ -13,4 +13,5 @@
 
 Route::get('/', 'PlacementController@index')->name('index');
 Route::post('/', 'PlacementController@store')->name('store');
+Route::get('/thanks', 'PlacementController@thanks')->name('thanks');
 Route::get('/test', 'PlacementController@test')->name('test');
