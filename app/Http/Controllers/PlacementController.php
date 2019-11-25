@@ -1,3 +1,204 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Placement;
+use Illuminate\Http\Request;
+
+class PlacementController extends Controller
+{
+
+    public function test()
+    {
+	    $p = Placement::find(280);
+	    var_dump($p);
+
+	    $p = new Placement;
+	    $p->nom = 'test';
+	    $p->prenom = 'test';
+	    $p->adresseelectronique = 'test';
+	    $p->grammaire = 'test';
+	    $p->q1_1 = 'test';
+	    $p->q1_2 = 'test';
+	    $p->q1_3 = 'test';
+	    $p->q1_4 = 'test';
+	    $p->q1_5 = 'test';
+	    $p->q1_6 = 'test';
+	    $p->q1_7 = 'test';
+	    $p->q1_8 = 'test';
+	    $p->q1_9 = 'test';
+	    $p->q1_10 = 'test';
+	    $p->q1_11 = 'test';
+	    $p->q1_12 = 'test';
+	    $p->q1_13 = 'test';
+	    $p->q1_14 = 'test';
+	    $p->q1_15 = 'test';
+	    $p->q1_16 = 'test';
+	    $p->q1_17 = 'test';
+	    $p->q1_18 = 'test';
+	    $p->q1_19 = 'test';
+	    $p->q1_20 = 'test';
+	    $p->q1_21 = 'test';
+	    $p->q1_22 = 'test';
+	    $p->save();
+    }	    
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+	    return view('form');
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+	    $p = new Placement;
+	    $p->nom = trim($request->lastname);
+	    $p->prenom = trim($request->firtname);
+	    $p->adresseelectronique = trim($request->email);
+	    $p->grammaire = trim($request->years);
+	    $p->q1_1 = trim($request->q1_1);
+	    $p->q1_2 = trim($request->q1_2);
+	    $p->q1_3 = trim($request->q1_3);
+	    $p->q1_4 = trim($request->q1_4);
+	    $p->q1_5 = trim($request->q1_5);
+	    $p->q1_6 = trim($request->q1_6);
+	    $p->q1_7 = trim($request->q1_7);
+	    $p->q1_8 = trim($request->q1_8);
+	    $p->q1_9 = trim($request->q1_9);
+	    $p->q1_10 = trim($request->q1_10);
+	    $p->q1_11 = trim($request->q1_11);
+	    $p->q1_12 = trim($request->q1_12);
+	    $p->q1_13 = trim($request->q1_13);
+	    $p->q1_14 = trim($request->q1_14);
+	    $p->q1_15 = trim($request->q1_15);
+	    $p->q1_16 = trim($request->q1_16);
+	    $p->q1_17 = trim($request->q1_17);
+	    $p->q1_18 = trim($request->q1_18);
+	    $p->q1_19 = trim($request->q1_19);
+	    $p->q1_20 = trim($request->q1_20);
+	    $p->q1_21 = trim($request->q1_21);
+	    $p->q1_22 = trim($request->q1_22);
+	    $p->q2_1 = trim($request->q2_1);
+	    $p->q2_2 = trim($request->q2_2);
+	    $p->q2_3 = trim($request->q2_3);
+	    $p->q2_4 = trim($request->q2_4);
+	    $p->q2_5 = trim($request->q2_5);
+	    $p->q2_6 = trim($request->q2_6);
+	    $p->q3_1 = trim($request->q3_1);
+	    $p->q3_2 = trim($request->q3_2);
+	    $p->q3_3 = trim($request->q3_3);
+	    $p->q3_4 = trim($request->q3_4);
+	    $p->q3_5 = trim($request->q3_5);
+	    $p->q3_6 = trim($request->q3_6);
+	    $p->q3_7 = trim($request->q3_7);
+	    $p->q3_8 = trim($request->q3_8);
+	    $p->q3_9 = trim($request->q3_9);
+	    $p->q3_10 = trim($request->q3_10);
+	    $p->q4_1 = trim($request->q4_1);
+	    $p->q4_2 = trim($request->q4_2);
+	    $p->q4_3 = trim($request->q4_3);
+	    $p->q4_4 = trim($request->q4_4);
+	    $p->q4_5 = trim($request->q4_5);
+	    $p->q4_6 = trim($request->q4_6);
+	    $p->q4_7 = trim($request->q4_7);
+	    $p->q4_8 = trim($request->q4_8);
+	    $p->q4_9 = trim($request->q4_9);
+	    $p->q4_10 = trim($request->q4_10);
+	    $p->q5_1 = trim($request->q5_1);
+	    $p->q5_2 = trim($request->q5_2);
+	    $p->q5_3 = trim($request->q5_3);
+	    $p->q5_4 = trim($request->q5_4);
+	    $p->q5_5 = trim($request->q5_5);
+	    $p->q5_6 = trim($request->q5_6);
+	    $p->q5_7 = trim($request->q5_7);
+	    $p->q5_8 = trim($request->q5_8);
+	    $p->q5_9 = trim($request->q5_9);
+	    $p->q5_10 = trim($request->q5_10);
+	    $p->q6_1 = trim($request->q6_1);
+	    $p->q6_2 = trim($request->q6_2);
+	    $p->q6_3 = trim($request->q6_3);
+	    $p->q6_4 = trim($request->q6_4);
+	    $p->q6_5 = trim($request->q6_5);
+	    $p->q6_6 = trim($request->q6_6);
+	    $p->q6_7 = trim($request->q6_7);
+	    $p->q6_8 = trim($request->q6_8);
+	    $p->q6_9 = trim($request->q6_9);
+	    $p->q6_10 = trim($request->q6_10);
+	    $p->q7_1 = trim($request->q7_1);
+	    $p->q7_2 = trim($request->q7_2);
+	    $p->q7_3 = trim($request->q7_3);
+	    $p->q7_4 = trim($request->q7_4);
+	    $p->q7_5 = trim($request->q7_5);
+	    $p->q7_6 = trim($request->q7_6);
+	    $p->save();
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  \App\Placement  $placement
+     * @return \Illuminate\Http\Response
+     */
+    public function show(Placement $placement)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  \App\Placement  $placement
+     * @return \Illuminate\Http\Response
+     */
+    public function edit(Placement $placement)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Placement  $placement
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, Placement $placement)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  \App\Placement  $placement
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(Placement $placement)
+    {
+        //
+    }
+}
+/*
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
 <html>
 <head>
@@ -312,4 +513,4 @@ $from .= "MIME-version: 1.0\n";
 $from .= "Content-type: text/html; charset= utf-8\n";
 
 mail($mail_dest, $subject, $message ,$from); 
-?>
+*/

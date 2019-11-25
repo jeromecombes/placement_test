@@ -1,9 +1,10 @@
 AuthName ByPassword
-AuthUserFile /usr/local/www/private/htpasswords/htpasswdplacement
+AuthUserFile /var/www/placement.columbiaprograms.fr/storage/htpasswords/htpasswdplacement
+
 AuthGroupFile /dev/null
 AuthType Basic
 
-<limit GET POST>
+<Files *.php>
 require valid-user
-</Limit>
+</Files>
 

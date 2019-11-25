@@ -44,7 +44,7 @@
             }
 
             .content {
-/*                text-align: center;*/
+		/*text-align: center;*/
             }
 
             .title {
@@ -117,10 +117,14 @@
 				Please complete the following exam without the use of a dictionary or other aid. 
 			</p>
 
-			<form name="form" action="validate.php" method="post" onsubmit='return validation();'>
+			{{ Form::open(array('route' => 'store')) }}
 				<table>
-					<tr><td><b>NOM:</b></td>
-						<td><input size="30" maxlength="50" name="Nom" type="text" autocomplete="off" /></td></tr>
+					<tr><td>
+						{{ Form::label('lastname', 'NOM :') }}
+					</td>
+					<td>
+						{{ Form::text('lastname', null, array('autocomplete' => 'off')) }}
+					</td></tr>
 					<tr><td><b>Prénom:</b></td>
 						<td><input size="30" maxlength="50" name="Prenom" type="text" autocomplete="off" /></td></tr>
 					<tr><td><b>Adresse électronique:</b></td>
@@ -341,7 +345,7 @@
 					<input value="Submit Exam" name="submit" type="submit" />
 				</div>
 
-			</form>
+			{{ Form::close() }}
 
                 </div>
 
@@ -351,3 +355,4 @@
         </div>
     </body>
 </html>
+
