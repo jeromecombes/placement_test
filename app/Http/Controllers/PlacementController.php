@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Placement;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PlacementController extends Controller
 {
@@ -117,7 +118,8 @@ class PlacementController extends Controller
      */
     public function thanks()
     {
-	    return view('thanks');
+        Auth::logout();
+        return view('thanks');
     }
 
     /**
