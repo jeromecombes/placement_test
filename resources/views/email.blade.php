@@ -91,7 +91,7 @@
             très froid cette nuit-là et Jean n' (arriver) <span id='q3_2' class='{{ $answers->q3_2->css }}'>{{ $answers->q3_2->value}}</span>
             pas à dormir. Alors, il (se lever) <span id='q3_3' class='{{ $answers->q3_3->css }}'>{{ $answers->q3_3->value}}</span>
             , il (aller) <span id='q3_4' class='{{ $answers->q3_4->css }}'>{{ $answers->q3_4->value}}</span>
-            au salon o&ugrave; la température (être) <span id='q3_5' class='{{ $answers->q3_5->css }}'>{{ $answers->q3_5->value}}</span>
+            au salon où la température (être) <span id='q3_5' class='{{ $answers->q3_5->css }}'>{{ $answers->q3_5->value}}</span>
             plus agréable et il (commencer) <span id='q3_6' class='{{ $answers->q3_6->css }}'>{{ $answers->q3_6->value}}</span>
             à lire le journal.
         </p>
@@ -152,7 +152,7 @@
 
         <p class='p4'>
             L: Vous <span id='q4_8' class='{{ $answers->q4_8->css }}'>{{ $answers->q4_8->value}}</span>
-            direz que je suis passé, mais dites- <span id='q4_9' class='{{ $answers->q4_9->css }}'>{{ $answers->q4_9->value}}</span> au moins o&ugrave; elle travaille.
+            direz que je suis passé, mais dites- <span id='q4_9' class='{{ $answers->q4_9->css }}'>{{ $answers->q4_9->value}}</span> au moins où elle travaille.
         </p>
 
         <p class='p4'>

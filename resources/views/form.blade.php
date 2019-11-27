@@ -111,7 +111,7 @@
             très froid cette nuit-là et Jean n' (arriver) {{ Form::text('q3_2', old('q3_2'), array('autocomplete' => 'off')) }}
             pas à dormir. Alors, il (se lever) {{ Form::text('q3_3', old('q3_3'), array('autocomplete' => 'off')) }}
             , il (aller) {{ Form::text('q3_4', old('q3_4'), array('autocomplete' => 'off')) }}
-            au salon o&ugrave; la température (être) {{ Form::text('q3_5', old('q3_5'), array('autocomplete' => 'off')) }}
+            au salon où la température (être) {{ Form::text('q3_5', old('q3_5'), array('autocomplete' => 'off')) }}
             plus agréable et il (commencer) {{ Form::text('q3_6', old('q3_6'), array('autocomplete' => 'off')) }}
             à lire le journal.
         </p>
@@ -172,7 +172,7 @@
 
         <p class='p4'>
             L: Vous {{ Form::text('q4_8', old('q4_8'), array('autocomplete' => 'off')) }}
-            direz que je suis passé, mais dites- {{ Form::text('q4_9', old('q4_9'), array('autocomplete' => 'off')) }} au moins o&ugrave; elle travaille.
+            direz que je suis passé, mais dites- {{ Form::text('q4_9', old('q4_9'), array('autocomplete' => 'off')) }} au moins où elle travaille.
         </p>
 
         <p class='p4'>
