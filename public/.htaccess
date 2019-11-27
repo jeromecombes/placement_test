@@ -1,13 +1,3 @@
-#AuthName ByPassword
-#AuthUserFile /var/www/placement.columbiaprograms.fr/storage/htpasswords/htpasswdplacement
-
-#AuthGroupFile /dev/null
-#AuthType Basic
-
-#<Limit GET POST>
-#	require valid-user
-#</Limit>
-
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
