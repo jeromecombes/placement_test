@@ -39,7 +39,7 @@ class PlacementController extends Controller
 
         $p = new Placement;
         $p->nom = trim(preg_replace ("/\s+/", " ", $request->lastname));
-        $p->prenom = trim(preg_replace ("/\s+/", " ", $request->firtname));
+        $p->prenom = trim(preg_replace ("/\s+/", " ", $request->firstname));
         $p->adresseelectronique = trim(preg_replace ("/\s+/", " ", $request->email));
         $p->grammaire = trim(preg_replace ("/\s+/", " ", $request->years));
         $p->q1_1 = trim(preg_replace ("/\s+/", " ", $request->q1_1));
