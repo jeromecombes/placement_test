@@ -29,6 +29,10 @@
     font-weight: bold;
 }
 
+.content span.help-block {
+    margin-left: 20px;
+}
+
 .p1 input,
 .p4 input{
     width: 80px;
@@ -50,10 +54,17 @@
 
 .info tr {
     height: 35px;
+}
+
+.info td:first-child {
+    white-space: nowrap;
+}
+
+.info tr > td:first-child {
     text-transform: uppercase;
 }
 
-.info tr:last-child {
+.info tr:last-child > td {
     text-transform: none;
 }
 

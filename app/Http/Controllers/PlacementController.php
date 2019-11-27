@@ -27,6 +27,13 @@ class PlacementController extends Controller
      */
     public function store(Request $request)
     {
+        $validateData = $request->validate([
+            'lastname' => 'required|string|max:255',
+            'firstname' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'years' => 'required|string|max:255',
+        ]);
+
         $p = new Placement;
         $p->nom = trim($request->lastname);
         $p->prenom = trim($request->firtname);
