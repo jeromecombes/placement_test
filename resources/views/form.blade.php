@@ -63,7 +63,7 @@
 
         </table>
 
-        <h1>1 ) Complétez le texte en utilisant ou non des articles (22 points):</h1>
+        <h1>1 ) Complétez le texte en utilisant ou non des articles (22 points) :</h1>
 
         <p class='p1'>
             Aujourd'hui, j'ai beaucoup {{ Form::text('q1_1', old('q1_1'), array('autocomplete' => 'off')) }}
@@ -81,8 +81,8 @@
             garage. Elle porte {{ Form::text('q1_13', old('q1_13'), array('autocomplete' => 'off')) }}
             belles chaussures vernies et {{ Form::text('q1_14', old('q1_14'), array('autocomplete' => 'off')) }}
             grand chapeau blanc. Elle a {{ Form::text('q1_15', old('q1_15'), array('autocomplete' => 'off')) }}
-            peur de se salir, moi aussi! Ensemble, nous poussons et enfin, {{ Form::text('q1_16', old('q1_16'), array('autocomplete' => 'off')) }}
-            porte s'ouvre! Il pleut toujours et {{ Form::text('q1_17', old('q1_17'), array('autocomplete' => 'off')) }}
+            peur de se salir, moi aussi ! Ensemble, nous poussons et enfin, {{ Form::text('q1_16', old('q1_16'), array('autocomplete' => 'off')) }}
+            porte s'ouvre ! Il pleut toujours et {{ Form::text('q1_17', old('q1_17'), array('autocomplete' => 'off')) }}
             chapeau de {{ Form::text('q1_18', old('q1_18'), array('autocomplete' => 'off')) }}
             jeune femme tombe dans {{ Form::text('q1_19', old('q1_19'), array('autocomplete' => 'off')) }}
             flaque {{ Form::text('q1_20', old('q1_20'), array('autocomplete' => 'off')) }}
@@ -91,7 +91,7 @@
             pieds mouillés.
         </p>
 
-        <h1>2 ) Mettez les verbes au mode et au temps qui conviennent (12 points):</h1>
+        <h1>2 ) Mettez les verbes au mode et au temps qui conviennent (12 points) :</h1>
 
         <p class='p2'>
             Il faut qu'elle (finir) {{ Form::text('q2_1', old('q2_1'), array('autocomplete' => 'off')) }}
@@ -104,7 +104,7 @@
             pas.
         </p>
 
-        <h1>3 ) Mettez les verbes soit au passé composé, soit à l'imparfait, soit au plus-que-parfait (21 points):</h1>
+        <h1>3 ) Mettez les verbes soit au passé composé, soit à l'imparfait, soit au plus-que-parfait (21 points) :</h1>
 
         <p class='p3'>
             Il (faire) {{ Form::text('q3_1', old('q3_1'), array('autocomplete' => 'off')) }}
@@ -138,7 +138,7 @@
             à entrer chez lui.
         </p>
 
-        <h1>4 ) Complétez le dialogue en utilisant les pronoms personnels appropriés (le, la, les, lui, leur, y, en...) (10 points):</h1>
+        <h1>4 ) Complétez le dialogue en utilisant les pronoms personnels appropriés (le, la, les, lui, leur, y, en...) (10 points) :</h1>
 
         <p class='p4'>
             Le livreur (L): J'ai un petit message pour Madame Lise.
@@ -165,8 +165,8 @@
         </p>
 
         <p class='p4'>
-            C: Des ordres! J' {{ Form::text('q4_5', old('q4_5'), array('autocomplete' => 'off')) }}
-            ai moi aussi! Madame Lise {{ Form::text('q4_6', old('q4_6'), array('autocomplete' => 'off')) }}
+            C: Des ordres ! J' {{ Form::text('q4_5', old('q4_5'), array('autocomplete' => 'off')) }}
+            ai moi aussi ! Madame Lise {{ Form::text('q4_6', old('q4_6'), array('autocomplete' => 'off')) }}
             a demandé de prendre tous les messages pour {{ Form::text('q4_7', old('q4_7'), array('autocomplete' => 'off')) }}.
         </p>
 
@@ -180,7 +180,7 @@
             est à cette heure-ci.
         </p>
 
-        <h1>5 ) Complétez le dialogue avec les pronoms relatifs appropriés (que, qui, dont, ce qui, ce que...) (13 points):</h1>
+        <h1>5 ) Complétez le dialogue avec les pronoms relatifs appropriés (que, qui, dont, ce qui, ce que...) (13 points) :</h1>
 
         <p class='p5'>
             Voilà trois jours que je suis arrivé à Amboise. Moi {{ Form::text('q5_1', old('q5_1'), array('autocomplete' => 'off')) }}
@@ -196,7 +196,7 @@
             on ne peut pas se fatiguer.
         </p>
 
-        <h1>6 ) Complétez le texte suivant en choisissant l'un des termes proposés entre parenthèses (10 points):</h1>
+        <h1>6 ) Complétez le texte suivant en choisissant l'un des termes proposés entre parenthèses (10 points) :</h1>
 
         <p class='p6'>
             Trois {{ Form::text('q6_1', old('q6_1'), array('autocomplete' => 'off')) }}
@@ -218,7 +218,7 @@
             (d'être recruté / à être recruté / à être recru) sur un contrat à durée indéterminée.
         </p>
 
-        <h1>7 ) Mettez les verbes entre parenthèses au passé composé (12 points):</h1>
+        <h1>7 ) Mettez les verbes entre parenthèses au passé composé (12 points) :</h1>
 
         <p class='p7'>
             Les premières fraises sont arrivées, j'en (acheter)
