@@ -38,10 +38,10 @@ class PlacementController extends Controller
         ]);
 
         $p = new Placement;
-        $p->nom = trim(preg_replace ("/\s+/", " ", $request->lastname));
-        $p->prenom = trim(preg_replace ("/\s+/", " ", $request->firstname));
-        $p->adresseelectronique = trim(preg_replace ("/\s+/", " ", $request->email));
-        $p->grammaire = trim(preg_replace ("/\s+/", " ", $request->years));
+        $p->lastname = trim(preg_replace ("/\s+/", " ", $request->lastname));
+        $p->firstname = trim(preg_replace ("/\s+/", " ", $request->firstname));
+        $p->email = trim(preg_replace ("/\s+/", " ", $request->email));
+        $p->years = trim(preg_replace ("/\s+/", " ", $request->years));
         $p->q1_1 = trim(preg_replace ("/\s+/", " ", $request->q1_1));
         $p->q1_2 = trim(preg_replace ("/\s+/", " ", $request->q1_2));
         $p->q1_3 = trim(preg_replace ("/\s+/", " ", $request->q1_3));
@@ -127,12 +127,6 @@ class PlacementController extends Controller
         $p->q7_5 = trim(preg_replace ("/\s+/", " ", $request->q7_5));
         $p->q7_6 = trim(preg_replace ("/\s+/", " ", $request->q7_6));
         $p->save();
-
-        // TODO : remove this when the DB will be translated
-        $p->lastname = trim(preg_replace ("/\s+/", " ", $request->lastname));
-        $p->firstname = trim(preg_replace ("/\s+/", " ", $request->firstname));
-        $p->email = trim(preg_replace ("/\s+/", " ", $request->email));
-        $p->years = trim(preg_replace ("/\s+/", " ", $request->years));
 
         $this->sendMail($p);
 
