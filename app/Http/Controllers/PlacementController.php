@@ -38,94 +38,94 @@ class PlacementController extends Controller
         ]);
 
         $p = new Placement;
-        $p->lastname = trim(preg_replace ("/\s+/", " ", $request->lastname));
-        $p->firstname = trim(preg_replace ("/\s+/", " ", $request->firstname));
-        $p->email = trim(preg_replace ("/\s+/", " ", $request->email));
-        $p->years = trim(preg_replace ("/\s+/", " ", $request->years));
-        $p->q1_1 = trim(preg_replace ("/\s+/", " ", $request->q1_1));
-        $p->q1_2 = trim(preg_replace ("/\s+/", " ", $request->q1_2));
-        $p->q1_3 = trim(preg_replace ("/\s+/", " ", $request->q1_3));
-        $p->q1_4 = trim(preg_replace ("/\s+/", " ", $request->q1_4));
-        $p->q1_5 = trim(preg_replace ("/\s+/", " ", $request->q1_5));
-        $p->q1_6 = trim(preg_replace ("/\s+/", " ", $request->q1_6));
-        $p->q1_7 = trim(preg_replace ("/\s+/", " ", $request->q1_7));
-        $p->q1_8 = trim(preg_replace ("/\s+/", " ", $request->q1_8));
-        $p->q1_9 = trim(preg_replace ("/\s+/", " ", $request->q1_9));
-        $p->q1_10 = trim(preg_replace ("/\s+/", " ", $request->q1_10));
-        $p->q1_11 = trim(preg_replace ("/\s+/", " ", $request->q1_11));
-        $p->q1_12 = trim(preg_replace ("/\s+/", " ", $request->q1_12));
-        $p->q1_13 = trim(preg_replace ("/\s+/", " ", $request->q1_13));
-        $p->q1_14 = trim(preg_replace ("/\s+/", " ", $request->q1_14));
-        $p->q1_15 = trim(preg_replace ("/\s+/", " ", $request->q1_15));
-        $p->q1_16 = trim(preg_replace ("/\s+/", " ", $request->q1_16));
-        $p->q1_17 = trim(preg_replace ("/\s+/", " ", $request->q1_17));
-        $p->q1_18 = trim(preg_replace ("/\s+/", " ", $request->q1_18));
-        $p->q1_19 = trim(preg_replace ("/\s+/", " ", $request->q1_19));
-        $p->q1_20 = trim(preg_replace ("/\s+/", " ", $request->q1_20));
-        $p->q1_21 = trim(preg_replace ("/\s+/", " ", $request->q1_21));
-        $p->q1_22 = trim(preg_replace ("/\s+/", " ", $request->q1_22));
-        $p->q2_1 = trim(preg_replace ("/\s+/", " ", $request->q2_1));
-        $p->q2_2 = trim(preg_replace ("/\s+/", " ", $request->q2_2));
-        $p->q2_3 = trim(preg_replace ("/\s+/", " ", $request->q2_3));
-        $p->q2_4 = trim(preg_replace ("/\s+/", " ", $request->q2_4));
-        $p->q2_5 = trim(preg_replace ("/\s+/", " ", $request->q2_5));
-        $p->q2_6 = trim(preg_replace ("/\s+/", " ", $request->q2_6));
-        $p->q3_1 = trim(preg_replace ("/\s+/", " ", $request->q3_1));
-        $p->q3_2 = trim(preg_replace ("/\s+/", " ", $request->q3_2));
-        $p->q3_3 = trim(preg_replace ("/\s+/", " ", $request->q3_3));
-        $p->q3_4 = trim(preg_replace ("/\s+/", " ", $request->q3_4));
-        $p->q3_5 = trim(preg_replace ("/\s+/", " ", $request->q3_5));
-        $p->q3_6 = trim(preg_replace ("/\s+/", " ", $request->q3_6));
-        $p->q3_7 = trim(preg_replace ("/\s+/", " ", $request->q3_7));
-        $p->q3_8 = trim(preg_replace ("/\s+/", " ", $request->q3_8));
-        $p->q3_9 = trim(preg_replace ("/\s+/", " ", $request->q3_9));
-        $p->q3_10 = trim(preg_replace ("/\s+/", " ", $request->q3_10));
-        $p->q3_11 = trim(preg_replace ("/\s+/", " ", $request->q3_11));
-        $p->q3_12 = trim(preg_replace ("/\s+/", " ", $request->q3_12));
-        $p->q3_13 = trim(preg_replace ("/\s+/", " ", $request->q3_13));
-        $p->q3_14 = trim(preg_replace ("/\s+/", " ", $request->q3_14));
-        $p->q3_15 = trim(preg_replace ("/\s+/", " ", $request->q3_15));
-        $p->q3_16 = trim(preg_replace ("/\s+/", " ", $request->q3_16));
-        $p->q3_17 = trim(preg_replace ("/\s+/", " ", $request->q3_17));
-        $p->q3_18 = trim(preg_replace ("/\s+/", " ", $request->q3_18));
-        $p->q3_19 = trim(preg_replace ("/\s+/", " ", $request->q3_19));
-        $p->q3_20 = trim(preg_replace ("/\s+/", " ", $request->q3_20));
-        $p->q4_1 = trim(preg_replace ("/\s+/", " ", $request->q4_1));
-        $p->q4_2 = trim(preg_replace ("/\s+/", " ", $request->q4_2));
-        $p->q4_3 = trim(preg_replace ("/\s+/", " ", $request->q4_3));
-        $p->q4_4 = trim(preg_replace ("/\s+/", " ", $request->q4_4));
-        $p->q4_5 = trim(preg_replace ("/\s+/", " ", $request->q4_5));
-        $p->q4_6 = trim(preg_replace ("/\s+/", " ", $request->q4_6));
-        $p->q4_7 = trim(preg_replace ("/\s+/", " ", $request->q4_7));
-        $p->q4_8 = trim(preg_replace ("/\s+/", " ", $request->q4_8));
-        $p->q4_9 = trim(preg_replace ("/\s+/", " ", $request->q4_9));
-        $p->q4_10 = trim(preg_replace ("/\s+/", " ", $request->q4_10));
-        $p->q5_1 = trim(preg_replace ("/\s+/", " ", $request->q5_1));
-        $p->q5_2 = trim(preg_replace ("/\s+/", " ", $request->q5_2));
-        $p->q5_3 = trim(preg_replace ("/\s+/", " ", $request->q5_3));
-        $p->q5_4 = trim(preg_replace ("/\s+/", " ", $request->q5_4));
-        $p->q5_5 = trim(preg_replace ("/\s+/", " ", $request->q5_5));
-        $p->q5_6 = trim(preg_replace ("/\s+/", " ", $request->q5_6));
-        $p->q5_7 = trim(preg_replace ("/\s+/", " ", $request->q5_7));
-        $p->q5_8 = trim(preg_replace ("/\s+/", " ", $request->q5_8));
-        $p->q5_9 = trim(preg_replace ("/\s+/", " ", $request->q5_9));
-        $p->q5_10 = trim(preg_replace ("/\s+/", " ", $request->q5_10));
-        $p->q6_1 = trim(preg_replace ("/\s+/", " ", $request->q6_1));
-        $p->q6_2 = trim(preg_replace ("/\s+/", " ", $request->q6_2));
-        $p->q6_3 = trim(preg_replace ("/\s+/", " ", $request->q6_3));
-        $p->q6_4 = trim(preg_replace ("/\s+/", " ", $request->q6_4));
-        $p->q6_5 = trim(preg_replace ("/\s+/", " ", $request->q6_5));
-        $p->q6_6 = trim(preg_replace ("/\s+/", " ", $request->q6_6));
-        $p->q6_7 = trim(preg_replace ("/\s+/", " ", $request->q6_7));
-        $p->q6_8 = trim(preg_replace ("/\s+/", " ", $request->q6_8));
-        $p->q6_9 = trim(preg_replace ("/\s+/", " ", $request->q6_9));
-        $p->q6_10 = trim(preg_replace ("/\s+/", " ", $request->q6_10));
-        $p->q7_1 = trim(preg_replace ("/\s+/", " ", $request->q7_1));
-        $p->q7_2 = trim(preg_replace ("/\s+/", " ", $request->q7_2));
-        $p->q7_3 = trim(preg_replace ("/\s+/", " ", $request->q7_3));
-        $p->q7_4 = trim(preg_replace ("/\s+/", " ", $request->q7_4));
-        $p->q7_5 = trim(preg_replace ("/\s+/", " ", $request->q7_5));
-        $p->q7_6 = trim(preg_replace ("/\s+/", " ", $request->q7_6));
+        $p->lastname= $this->clean($request->lastname);
+        $p->firstname= $this->clean($request->firstname);
+        $p->email= $this->clean($request->email);
+        $p->years= $this->clean($request->years);
+        $p->q1_1= $this->clean($request->q1_1);
+        $p->q1_2= $this->clean($request->q1_2);
+        $p->q1_3= $this->clean($request->q1_3);
+        $p->q1_4= $this->clean($request->q1_4);
+        $p->q1_5= $this->clean($request->q1_5);
+        $p->q1_6= $this->clean($request->q1_6);
+        $p->q1_7= $this->clean($request->q1_7);
+        $p->q1_8= $this->clean($request->q1_8);
+        $p->q1_9= $this->clean($request->q1_9);
+        $p->q1_10= $this->clean($request->q1_10);
+        $p->q1_11= $this->clean($request->q1_11);
+        $p->q1_12= $this->clean($request->q1_12);
+        $p->q1_13= $this->clean($request->q1_13);
+        $p->q1_14= $this->clean($request->q1_14);
+        $p->q1_15= $this->clean($request->q1_15);
+        $p->q1_16= $this->clean($request->q1_16);
+        $p->q1_17= $this->clean($request->q1_17);
+        $p->q1_18= $this->clean($request->q1_18);
+        $p->q1_19= $this->clean($request->q1_19);
+        $p->q1_20= $this->clean($request->q1_20);
+        $p->q1_21= $this->clean($request->q1_21);
+        $p->q1_22= $this->clean($request->q1_22);
+        $p->q2_1= $this->clean($request->q2_1);
+        $p->q2_2= $this->clean($request->q2_2);
+        $p->q2_3= $this->clean($request->q2_3);
+        $p->q2_4= $this->clean($request->q2_4);
+        $p->q2_5= $this->clean($request->q2_5);
+        $p->q2_6= $this->clean($request->q2_6);
+        $p->q3_1= $this->clean($request->q3_1);
+        $p->q3_2= $this->clean($request->q3_2);
+        $p->q3_3= $this->clean($request->q3_3);
+        $p->q3_4= $this->clean($request->q3_4);
+        $p->q3_5= $this->clean($request->q3_5);
+        $p->q3_6= $this->clean($request->q3_6);
+        $p->q3_7= $this->clean($request->q3_7);
+        $p->q3_8= $this->clean($request->q3_8);
+        $p->q3_9= $this->clean($request->q3_9);
+        $p->q3_10= $this->clean($request->q3_10);
+        $p->q3_11= $this->clean($request->q3_11);
+        $p->q3_12= $this->clean($request->q3_12);
+        $p->q3_13= $this->clean($request->q3_13);
+        $p->q3_14= $this->clean($request->q3_14);
+        $p->q3_15= $this->clean($request->q3_15);
+        $p->q3_16= $this->clean($request->q3_16);
+        $p->q3_17= $this->clean($request->q3_17);
+        $p->q3_18= $this->clean($request->q3_18);
+        $p->q3_19= $this->clean($request->q3_19);
+        $p->q3_20= $this->clean($request->q3_20);
+        $p->q4_1= $this->clean($request->q4_1);
+        $p->q4_2= $this->clean($request->q4_2);
+        $p->q4_3= $this->clean($request->q4_3);
+        $p->q4_4= $this->clean($request->q4_4);
+        $p->q4_5= $this->clean($request->q4_5);
+        $p->q4_6= $this->clean($request->q4_6);
+        $p->q4_7= $this->clean($request->q4_7);
+        $p->q4_8= $this->clean($request->q4_8);
+        $p->q4_9= $this->clean($request->q4_9);
+        $p->q4_10= $this->clean($request->q4_10);
+        $p->q5_1= $this->clean($request->q5_1);
+        $p->q5_2= $this->clean($request->q5_2);
+        $p->q5_3= $this->clean($request->q5_3);
+        $p->q5_4= $this->clean($request->q5_4);
+        $p->q5_5= $this->clean($request->q5_5);
+        $p->q5_6= $this->clean($request->q5_6);
+        $p->q5_7= $this->clean($request->q5_7);
+        $p->q5_8= $this->clean($request->q5_8);
+        $p->q5_9= $this->clean($request->q5_9);
+        $p->q5_10= $this->clean($request->q5_10);
+        $p->q6_1= $this->clean($request->q6_1);
+        $p->q6_2= $this->clean($request->q6_2);
+        $p->q6_3= $this->clean($request->q6_3);
+        $p->q6_4= $this->clean($request->q6_4);
+        $p->q6_5= $this->clean($request->q6_5);
+        $p->q6_6= $this->clean($request->q6_6);
+        $p->q6_7= $this->clean($request->q6_7);
+        $p->q6_8= $this->clean($request->q6_8);
+        $p->q6_9= $this->clean($request->q6_9);
+        $p->q6_10= $this->clean($request->q6_10);
+        $p->q7_1= $this->clean($request->q7_1);
+        $p->q7_2= $this->clean($request->q7_2);
+        $p->q7_3= $this->clean($request->q7_3);
+        $p->q7_4= $this->clean($request->q7_4);
+        $p->q7_5= $this->clean($request->q7_5);
+        $p->q7_6= $this->clean($request->q7_6);
         $p->save();
 
         $this->sendMail($p);
@@ -138,7 +138,7 @@ class PlacementController extends Controller
      *
      * @return Array of good answers
      */
-    public function answers()
+    private function answers()
     {
         $answers = array(
             'q1_1' => array("de"),
@@ -236,7 +236,7 @@ class PlacementController extends Controller
      * @param  \App\Placement $placement
      * @return Array ($answers, $scores)
      */
-    public function control(Placement $placement)
+    private function control(Placement $placement)
     {
         $right_answers = $this->answers();
         $keys = array_keys($right_answers);
@@ -282,7 +282,7 @@ class PlacementController extends Controller
      *
      * @param  \App\Placement  $placement
      */
-    public function sendMail(Placement $placement)
+    private function sendMail(Placement $placement)
     {
         $control = $this->control($placement);
         list($answers, $scores) = $control;
@@ -308,4 +308,19 @@ class PlacementController extends Controller
         return view('thanks');
     }
 
+    /**
+     * Clean inputs : remove unwanted spaces
+     *
+     * @return \Illuminate\Http\Response
+     */
+    private function clean($text)
+    {
+        $pattern = array("/\s+/", "/\s+'\s+/", "/\s+'/", "/'\s+/");
+        $replace = array(" ", "'", "'", "'");
+
+        $text = trim($text);
+        $text = preg_replace($pattern, $replace, $text);
+
+        return $text;
+    }
 }
