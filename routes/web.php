@@ -11,25 +11,25 @@
 |
 */
 
-Route::get('/', 'PlacementController@index')
+Route::get('/', [PlacementController::class, 'index'])
     ->name('index')
     ->middleware('auth');
 
-Route::post('/', 'PlacementController@store')
+Route::post('/', [PlacementController::class, 'store'])
     ->name('store')
     ->middleware('auth');
 
-Route::get('/thanks', 'PlacementController@thanks')
+Route::get('/thanks', [PlacementController::class, 'thanks'])
     ->name('thanks');
 
 
-Route::get('login', 'Auth\LoginController@showLoginForm')
+Route::get('login', [LoginController::class, 'showLoginForm'])
     ->name('login');
 
-Route::post('login', 'Auth\LoginController@login');
+Route::post('login', [LoginController::class, 'login']);
 
-Route::post('logout', 'Auth\LoginController@logout')
+Route::post('logout', [LoginController::class, 'logout'])
     ->name('logout');
 
-Route::get('/home', 'HomeController@index')
+Route::get('/home', [HomeController::class, 'index'])
     ->name('home');
