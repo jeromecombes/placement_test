@@ -8,9 +8,9 @@
         "php": ">=7.2.0",
         "doctrine/dbal": "^2.5",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "5.6.*",
+        "laravel/framework": "5.7.*",
         "laravel/tinker": "~1.0",
-        "laravelcollective/html": "5.5.*"
+        "laravelcollective/html": "5.7.*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.4",
