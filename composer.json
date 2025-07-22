@@ -7,20 +7,20 @@
     "require": {
         "php": ">=7.2.0",
         "doctrine/dbal": "^2.5",
-        "facade/ignition": "^2.3.6",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^9.0",
         "laravel/helpers": "^1.7",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
-        "spatie/laravel-html": "^2.24"
+        "spatie/laravel-html": "^3.5",
+        "spatie/laravel-ignition": "^1.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.4",
         "filp/whoops": "~2.0",
         "mockery/mockery": "~1.0",
-        "nunomaduro/collision": "^5.0",
+        "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.0",
         "symfony/thanks": "^1.0"
     },
