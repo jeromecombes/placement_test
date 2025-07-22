@@ -11,6 +11,10 @@
 |
 */
 
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PlacementController;
+
 Route::get('/', [PlacementController::class, 'index'])
     ->name('index')
     ->middleware('auth');
