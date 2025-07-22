@@ -33,7 +33,7 @@ class Placement extends Mailable
     {
         $studentName = $this->answers->firstname . ' ' . $this->answers->lastname;
 
-        return $this->from(['address' => env('MAIL_FROM_ADDRESS', 'noreply@columbiaprograms.fr'), 'name' => env('MAIL_FROM_NAME', 'NO REPLY')])
+        return $this->from(['address' => env('MAIL_FROM_ADDRESS'), 'name' => env('MAIL_FROM_NAME', 'NO REPLY')])
             ->subject(env('APP_NAME', 'Examen de placement') . ' ' . $studentName)
             ->view('email')
             ->text('email_plain')
